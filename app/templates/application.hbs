@@ -1,5 +1,168 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-3">
+			<button {{on "click" (fn this.toggle "one")}}>Show 1 element</button>
+			{{#if one}}
+				<BsForm as |form|>
+				  	<form.element @label="Text" />
+				</BsForm>
+			{{/if}}
+		</div>
+		<div class="col-3">
+			<button {{on "click" (fn this.toggle "ten")}}>Show 10 elements</button>
+			{{#if ten}}
+				<BsForm as |form|>
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				</BsForm>
+			{{/if}}
+		</div>
+		<div class="col-3">
+			<button {{on "click" (fn this.toggle "twentyFive")}}>Show 25 elements</button>
+			{{#if twentyFive}}
+				<BsForm as |form|>
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				</BsForm>
+			{{/if}}
+		</div>
+		<div class="col-3">
+			<button {{on "click" (fn this.toggle "hundred")}}>Show 100 elements</button>
+			{{#if hundred}}
+				<BsForm as |form|>
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				  	<form.element />
+				</BsForm>
+			{{/if}}
+		</div>
+	</div>
+</div>
